@@ -1,0 +1,36 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+#logo_venegas{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.insert_enterprise_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background-color: #F95F5F;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: 34px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    width: 250x;
+    height: 80px;
+}
+
+.insert_enterprise_button:hover{
+    background-color: red;
+}
