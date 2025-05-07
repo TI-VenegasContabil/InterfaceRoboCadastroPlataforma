@@ -1,0 +1,114 @@
+.main_cadastro_empresa{
+    font-family: "Fredoka", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_cadatro_empresa > h1{
+    font-size: 34px;
+}
+
+.enterpriseBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #CECCCC;
+    border-radius: 20px;
+    width: 650px;
+    opacity: 0.7;
+
+
+
+}
+
+.form_empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* alinha à esquerda */
+    gap: 10px; /* espaçamento entre os elementos */
+    padding: 20px;
+    max-width: 400px; /* limita largura */
+    margin-top: 30px;
+
+  }
+  
+  .form_empresa input,
+  .form_empresa select,
+  .form_empresa label,
+  .form_empresa button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form_empresa label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.form-item >input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #CECCCC;
+    border-width: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.644);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-item label{
+    color:rgb(82, 80, 80);
+}
+
+
+.form-item button{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.atividade-secundaria-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.atividade-lista> li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.atividade-lista > li > button{
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    border-color: #969393;
+}
+
+.next-buttom{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F95F5F;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: large;
+    border-color:#CECCCC;
+    transition: border-color 0.3s ease;
+}
+.next-buttom:hover{
+    background-color: #fc0000;
+}
